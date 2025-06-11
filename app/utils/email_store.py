@@ -13,9 +13,6 @@ def get_emails() -> list[Email]:
     """
     data_file = Path("data/emails.json")
 
-    if not data_file.exists():
-        return []
-
     try:
         with open(data_file, "r", encoding="utf-8") as f:
             data = json.load(f)
