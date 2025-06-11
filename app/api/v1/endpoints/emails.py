@@ -1,4 +1,5 @@
 from fastapi import APIRouter, HTTPException, status
+from uuid import UUID
 
 from app.schemas.email import Email
 from app.utils.email_store import get_emails, get_email_by_id
@@ -27,7 +28,7 @@ async def get_all_emails() -> list[Email]:
 
 
 @router.get("/{email_id}", response_model=Email, status_code=status.HTTP_200_OK)
-async def get_email(email_id: int) -> Email:
+async def get_email(email_id: UUID) -> Email:
     """
     Get a specific email by ID.
 
@@ -48,6 +49,8 @@ async def get_email(email_id: int) -> Email:
                 detail=f"Email with id {email_id} not found",
             )
         return email
+    except HTTPException:
+        raise
     except Exception as e:
         raise HTTPException(
             status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,

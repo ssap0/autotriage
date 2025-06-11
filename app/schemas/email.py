@@ -1,5 +1,6 @@
 from pydantic import BaseModel, Field, ConfigDict, field_serializer
 from datetime import datetime
+from uuid import UUID
 
 
 class Email(BaseModel):
@@ -7,7 +8,7 @@ class Email(BaseModel):
 
     model_config = ConfigDict()
 
-    id: int = Field(..., description="Unique email identifier")
+    id: UUID = Field(..., description="Unique email identifier")
     sender: str = Field(..., description="Email sender address")
     date: datetime = Field(..., description="Email date and time")
     mime_content: str = Field(..., description="Email content in MIME format")

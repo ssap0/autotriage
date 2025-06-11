@@ -1,6 +1,7 @@
 import json
 from typing import Optional
 from pathlib import Path
+from uuid import UUID
 
 from app.schemas.email import Email
 
@@ -21,7 +22,7 @@ def get_emails() -> list[Email]:
         return []
 
 
-def get_email_by_id(email_id: int) -> Optional[Email]:
+def get_email_by_id(email_id: UUID) -> Optional[Email]:
     """Get a specific email by ID.
 
     Args:

@@ -1,3 +1,4 @@
+from uuid import UUID
 from app.utils.email_store import get_emails, get_email_by_id
 from app.schemas.email import Email
 
@@ -23,5 +24,6 @@ def test_get_email_by_id():
         assert first_email.id == emails[0].id
 
     # Test getting non-existent email
-    email = get_email_by_id(999999)
+    non_existent_id = UUID("00000000-0000-0000-0000-000000000000")
+    email = get_email_by_id(non_existent_id)
     assert email is None
