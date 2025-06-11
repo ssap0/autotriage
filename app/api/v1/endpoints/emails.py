@@ -7,7 +7,7 @@ router = APIRouter()
 
 
 @router.get("/", response_model=list[Email])
-async def get_all_emails():
+async def get_all_emails() -> list[Email]:
     """
     Get all emails from the store.
 
