@@ -1,5 +1,6 @@
 from uuid import UUID
-from app.utils.email_store import get_emails, get_email_by_id
+from datetime import datetime
+from app.utils.email_store import get_emails, get_email_by_id, save_email
 from app.schemas.email import Email
 
 
@@ -27,3 +28,29 @@ def test_get_email_by_id():
     non_existent_id = UUID("00000000-0000-0000-0000-000000000000")
     email = get_email_by_id(non_existent_id)
     assert email is None
+
+
+def test_save_email():
+    """Test saving an email."""
+    # Create a test email
+    test_email = Email(
+        subject="Test Subject",
+        email_content="Test email content",
+        sender="test@example.com",
+        date=datetime.now(),
+    )
+
+    # Save the email
+    saved_email = save_email(test_email)
+
+    # Verify it was saved with an ID
+    assert saved_email.id is not None
+    assert saved_email.subject == "Test Subject"
+    assert saved_email.email_content == "Test email content"
+    assert saved_email.sender == "test@example.com"
+
+    # Verify it can be retrieved
+    retrieved_email = get_email_by_id(saved_email.id)
+    assert retrieved_email is not None
+    assert retrieved_email.id == saved_email.id
+    assert retrieved_email.subject == saved_email.subject

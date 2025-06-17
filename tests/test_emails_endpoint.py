@@ -18,4 +18,5 @@ def test_get_all_emails():
         assert "id" in email
         assert "sender" in email
         assert "date" in email
-        assert "mime_content" in email
+        assert "subject" in email
+        assert "email_content" in email
