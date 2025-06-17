@@ -1,7 +1,7 @@
 import json
 from typing import Optional
 from pathlib import Path
-from uuid import UUID, uuid4
+from uuid import UUID
 
 from app.schemas.email import Email
 
