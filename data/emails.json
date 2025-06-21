@@ -1,23 +1,177 @@
 [
   {
-    "id": "550e8400-e29b-41d4-a716-446655440001",
-    "sender": "support@example.com",
-    "date": "2024-01-15T09:30:00",
-    "subject": "Welcome to our service",
-    "email_content": "Dear Customer,\n\nWelcome to our service! We're excited to have you on board.\n\nBest regards,\nSupport Team"
+    "email_id": "7f8a9b2c3d4e5f6a",
+    "timestamp": "2024-03-15T09:23:14Z",
+    "sender": "accounts@freshproduce.com.au",
+    "subject": "Question about Invoice #FP-2024-0892 - Payment Terms",
+    "content": "Dear Shared Services Team,\n\nI hope this email finds you well. I wanted to reach out regarding Invoice #FP-2024-0892 for $45,230.50 that was issued 30 days ago.\n\nCould you please clarify the current status of this payment? We have some concerns about the delay and would appreciate an update on when we can expect processing.\n\nRegards,\nMike Chen\nAccounts Receivable\nFresh Produce Australia\n\n-- \nMike Chen | Accounts Manager\nFresh Produce Australia Pty Ltd\nPhone: +61 2 9876 5432\nEmail: mike.chen@freshproduce.com.au"
   },
   {
-    "id": "550e8400-e29b-41d4-a716-446655440002",
-    "sender": "billing@example.com",
-    "date": "2024-01-15T14:45:00",
-    "subject": "Invoice #12345",
-    "email_content": "<html><body><h1>Invoice #12345</h1><p>Your monthly subscription fee of $29.99 is due.</p><p>Thank you for your business!</p></body></html>"
+    "email_id": "b4c7d8e9f1a2b3c4",
+    "timestamp": "2024-03-15T09:24:33Z",
+    "sender": "accounts@freshproduce.com.au",
+    "subject": "Re: Invoice #FP-2024-0892 - Additional Information Required",
+    "content": "Dear Team,\n\nFollowing my previous email, I wanted to provide some additional context. The 30-day payment terms have now expired, and this is causing some concern on our end.\n\nWe understand that payment processing can sometimes take time, but we would appreciate if you could prioritize this particular invoice. The amount of $45,230.50 represents a significant portion of our monthly receivables.\n\nIs there any additional documentation or information you need from us to expedite the payment process?\n\nBest regards,\nMike Chen\n\n-- \nMike Chen | Accounts Manager\nFresh Produce Australia Pty Ltd\nPhone: +61 2 9876 5432\nEmail: mike.chen@freshproduce.com.au"
   },
   {
-    "id": "550e8400-e29b-41d4-a716-446655440003",
-    "sender": "noreply@newsletter.com",
-    "date": "2024-01-16T08:00:00",
-    "subject": "Weekly Newsletter - Tech Updates",
-    "email_content": "Weekly Tech Newsletter\n=====================\n\n1. AI breakthrough in natural language processing\n2. New framework releases this week\n3. Security updates you should know about\n\nRead more at our website."
+    "email_id": "e5f6a7b8c9d0e1f2",
+    "timestamp": "2024-03-15T09:25:47Z",
+    "sender": "accounts@freshproduce.com.au",
+    "subject": "URGENT: Invoice #FP-2024-0892 - Immediate Payment Required",
+    "content": "Dear Shared Services Team,\n\nI'm afraid I must escalate this matter. Invoice #FP-2024-0892 for $45,230.50 is now significantly overdue and requires immediate attention.\n\nIf we don't receive payment or a confirmed payment schedule by end of business today, we will unfortunately need to consider suspending future deliveries. This is not something we want to do, but the delay is impacting our cash flow and operations.\n\nPlease treat this as urgent and contact me directly to resolve this matter.\n\nUrgent regards,\nMike Chen\nAccounts Receivable\n\n-- \nMike Chen | Accounts Manager\nFresh Produce Australia Pty Ltd\nPhone: +61 2 9876 5432\nEmail: mike.chen@freshproduce.com.au"
+  },
+  {
+    "email_id": "a3b4c5d6e7f8a9b0",
+    "timestamp": "2024-03-15T09:26:15Z",
+    "sender": "accounts@freshproduce.com.au",
+    "subject": "Confirmation - Message Received Regarding Invoice #FP-2024-0892",
+    "content": "Hi Team,\n\nJust wanted to confirm that I've sent several emails this morning regarding Invoice #FP-2024-0892. I hope these messages are reaching the right person.\n\nIf you've received this and my previous emails, could you please send a quick acknowledgment so I know you're aware of the situation?\n\nThis will help me determine if I need to contact your team through alternative channels.\n\nThanks for your time,\nMike Chen\n\n-- \nMike Chen | Accounts Manager\nFresh Produce Australia Pty Ltd\nPhone: +61 2 9876 5432\nEmail: mike.chen@freshproduce.com.au"
+  },
+  {
+    "email_id": "9c1d2e3f4a5b6c7d",
+    "timestamp": "2024-03-15T14:42:33Z",
+    "sender": "logistics@meatworks.com.au",
+    "subject": "CRITICAL: Product Recall - Batch MW2024-03-A",
+    "content": "IMMEDIATE ACTION REQUIRED - PRODUCT RECALL INITIATED\n\n> From: quality@meatworks.com.au\n> To: logistics@meatworks.com.au\n> Subject: Quality Alert - Batch MW2024-03-A\n> Date: 2024-03-15T14:15:22Z\n> \n> URGENT: We have identified potential contamination in batch MW2024-03-A\n> Initial testing shows possible bacterial presence above acceptable limits.\n> > From: production@meatworks.com.au\n> > To: quality@meatworks.com.au\n> > Subject: Production Alert - Temperature Deviation\n> > Date: 2024-03-15T13:45:11Z\n> > \n> > Temperature logs show critical deviation in storage unit 5\n> > Recorded temperatures between 8-12°C instead of required 0-2°C\n> > Duration: Approximately 6 hours (03:00-09:00 this morning)\n> > > From: warehouse@meatworks.com.au\n> > > To: production@meatworks.com.au\n> > > Subject: Equipment Malfunction Report\n> > > Date: 2024-03-15T13:30:05Z\n> > > \n> > > Unit 5 refrigeration system showing 8°C reading instead of required 2°C\n> > > Alarm system failed to trigger - investigating why\n> > > Maintenance called immediately upon discovery during routine check\n> > > > From: maintenance@meatworks.com.au\n> > > > To: warehouse@meatworks.com.au\n> > > > Subject: Emergency Repair Status\n> > > > Date: 2024-03-15T12:15:33Z\n> > > > \n> > > > Compressor failure in Unit 5 - bearing seized overnight\n> > > > Backup cooling system also malfunctioned\n> > > > Estimated repair time: 8-12 hours for full temperature restoration\n> > > > > From: facilities@meatworks.com.au\n> > > > > To: maintenance@meatworks.com.au\n> > > > > Subject: Power Grid Analysis\n> > > > > Date: 2024-03-15T11:45:18Z\n> > > > > \n> > > > > No power outages recorded in sector 3\n> > > > > Equipment failure appears to be mechanical, not electrical\n> > > > > Backup generator functioned normally\n> > > > > > From: safety@meatworks.com.au\n> > > > > > To: facilities@meatworks.com.au\n> > > > > > Subject: Initial Assessment Complete\n> > > > > > Date: 2024-03-15T11:20:44Z\n> > > > > > \n> > > > > > Visual inspection of Unit 5 contents shows no obvious signs of spoilage\n> > > > > > However, temperature abuse for 6+ hours requires full batch recall\n> > > > > > Products affected: All meat products stored in Unit 5\n> > > > > > Batch codes: MW2024-03-A through MW2024-03-E\n\n**RECALL DIRECTIVE - IMMEDIATE IMPLEMENTATION REQUIRED**\n\nPlease immediately quarantine ALL products from the following batches delivered to your stores in the last 48 hours:\n\n**AFFECTED BATCHES:**\n- MW2024-03-A (Premium Beef Range)\n- MW2024-03-B (Lamb Cuts)\n- MW2024-03-C (Processed Meats)\n- MW2024-03-D (Specialty Sausages)\n- MW2024-03-E (Ground Meat Products)\n\n**ESTIMATED AFFECTED PRODUCTS:**\n- Total units: 15,420 packages\n- Total weight: 8,760 kg\n- Estimated retail value: $186,400\n- Stores affected: 47 locations\n\n**REQUIRED ACTIONS:**\n1. IMMEDIATE removal from all sales floors\n2. Secure quarantine in designated holding area\n3. Document all affected products with photos\n4. Contact customers who purchased products in last 24 hours\n5. Implement full product return and refund process\n6. Report completion status to this email within 2 hours\n\n**FOOD SAFETY PROTOCOL:**\nThis temperature abuse event poses potential health risks. Any products that cannot be accounted for must be treated as potentially hazardous. Customer health and safety is our absolute priority.\n\n**MEDIA RESPONSE:**\nDo not comment to media. Direct all inquiries to corporate communications at media@meatworks.com.au\n\n**REGULATORY COMPLIANCE:**\nFood Standards Australia New Zealand has been notified. Expect inspection teams within 24-48 hours.\n\nThis is a CRITICAL food safety issue requiring immediate and complete response.\n\nEmergency Response Team\nMeatworks Australia\nPhone: 1800-MEAT-EMERGENCY\nEmail: emergency@meatworks.com.au\n\nCONFIDENTIALITY NOTICE: This emergency notification contains sensitive information and should only be shared with authorized personnel. Unauthorized disclosure may result in disciplinary action."
+  },
+  {
+    "email_id": "f8e7d6c5b4a39281",
+    "timestamp": "2024-03-15T15:15:22Z",
+    "sender": "invoicing@dairyco.com.au",
+    "subject": "Invoice Submission - DC-INV-2024-1567",
+    "content": "Please find attached invoice DC-INV-2024-1567 for dairy products delivered March 10-14.\n\ndata:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k=\n\nAmount: $23,450.67\n\nPlease process within standard payment terms.\n\nSarah Mitchell\nDairy Co Australia\n\n-- \nSarah Mitchell | Billing Specialist\nDairy Co Australia Ltd\nPhone: +61 3 8765 4321\nEmail: sarah.mitchell@dairyco.com.au"
+  },
+  {
+    "email_id": "6d5c4b3a29180e7f",
+    "timestamp": "2024-03-15T16:20:11Z",
+    "sender": "billing@bakinggoods.com.au",
+    "subject": "Invoice #BG-2024-447 - Bakery Supply Delivery",
+    "content": "Dear Accounts Team,\n\nPlease find attached invoice BG-2024-447 for bakery supply delivery completed on March 13, 2024.\n\nInvoice Details:\n- Invoice #BG-2024-447\n- Amount: $15,680.45\n- Payment terms: 30 days\n- Delivery date: March 13, 2024\n\nInvoice and delivery confirmation images:\n\ndata:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k=\n\nPlease process at your earliest convenience.\n\nBest regards,\nAnna Wilson\nBilling Department\n\n-- \nAnna Wilson | Billing Coordinator\nBaking Goods Australia Pty Ltd\nPhone: +61 2 6543 2109\nEmail: anna.wilson@bakinggoods.com.au"
+  },
+  {
+    "email_id": "4a9b8c7d6e5f1234",
+    "timestamp": "2024-03-15T16:43:55Z",
+    "sender": "billing@bakinggoods.com.au",
+    "subject": "Invoice #BG-2024-447 - Bakery Supply Delivery",
+    "content": "Dear Accounts Team,\n\nPlease find attached invoice BG-2024-447 for bakery supply delivery completed on March 13, 2024.\n\nInvoice Details:\n- Invoice #BG-2024-447\n- Amount: $15,680.45\n- Payment terms: 30 days\n- Delivery date: March 13, 2024\n\nInvoice and delivery confirmation images:\n\ndata:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k=\n\nPlease process at your earliest convenience.\n\nBest regards,\nAnna Wilson\nBilling Department\n\n-- \nAnna Wilson | Billing Coordinator\nBaking Goods Australia Pty Ltd\nPhone: +61 2 6543 2109\nEmail: anna.wilson@bakinggoods.com.au"
+  },
+  {
+    "email_id": "2e8f7a6b5c4d3210",
+    "timestamp": "2024-03-16T08:30:17Z",
+    "sender": "contracts@wholesalegrocery.com.au",
+    "subject": "Contract Renewal Discussion - 2024-2025 Terms",
+    "content": "Good morning,\n\nI hope this email finds you well. As we approach the end of our current contract period, I wanted to initiate discussions about the renewal terms for 2024-2025.\n\nKey areas for discussion:\n- Volume commitments\n- Pricing structure\n- Delivery terms\n- Payment conditions\n\nCould we schedule a meeting in the next two weeks?\n\nBest regards,\nJennifer Lopez\nBusiness Development Manager\n\n-- \nJennifer Lopez | Business Development Manager\nWholesale Grocery Network\nPhone: +61 7 3456 7890\nEmail: jennifer.lopez@wholesalegrocery.com.au\nAddress: 123 Distribution Drive, Brisbane QLD 4000\n\nCONFIDENTIALITY NOTICE: This communication is confidential and may be legally privileged. If you have received it in error, please notify us immediately and delete it from your system."
+  },
+  {
+    "email_id": "8d7c6b5a49382716",
+    "timestamp": "2024-03-16T10:45:55Z",
+    "sender": "billing@seafoodexpress.com.au",
+    "subject": "Invoice #SE-2024-334 - Seafood Delivery",
+    "content": "Dear Accounts Team,\n\nPlease find invoice for seafood delivery completed on March 14, 2024.\n\nInvoice #SE-2024-334\nAmount: $18,765.90\nPayment terms: 30 days\n\ndelivery note and invoice images attached below:\n\ndata:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k=\n\nRegards,\nTom Wilson\n\n-- \nTom Wilson | Billing Coordinator\nSeafood Express Pty Ltd\nPhone: +61 8 9123 4567\nEmail: tom.wilson@seafoodexpress.com.au"
+  },
+  {
+    "email_id": "5b4a3928170f6e8d",
+    "timestamp": "2024-03-16T11:52:33Z",
+    "sender": "billing@seafoodexpress.com.au",
+    "subject": "Invoice #SE-2024-334 - Seafood Delivery",
+    "content": "Dear Accounts Team,\n\nPlease find invoice for seafood delivery completed on March 14, 2024.\n\nInvoice #SE-2024-334\nAmount: $18,765.90\nPayment terms: 30 days\n\ndelivery note and invoice images attached below:\n\ndata:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k=\n\nRegards,\nTom Wilson\n\n-- \nTom Wilson | Billing Coordinator\nSeafood Express Pty Ltd\nPhone: +61 8 9123 4567\nEmail: tom.wilson@seafoodexpress.com.au"
+  },
+  {
+    "email_id": "c8d9e1f2a3b4c567",
+    "timestamp": "2024-03-16T13:15:28Z",
+    "sender": "support@cleaningsupplies.com.au",
+    "subject": "General Inquiry - Product Catalog Request",
+    "content": "Hi there,\n\nCould you please send me your latest cleaning supplies catalog? I'm particularly interested in your eco-friendly range.\n\nThanks!\nLisa Park\n\n-- \nLisa Park | Procurement Assistant\nCleaning Supplies Co\nPhone: +61 4 1234 5678\nEmail: lisa.park@cleaningsupplies.com.au"
+  },
+  {
+    "email_id": "1f0e9d8c7b6a5948",
+    "timestamp": "2024-03-16T14:22:17Z",
+    "sender": "alerts@foodsafety.gov.au",
+    "subject": "URGENT: Food Safety Alert - Listeria Contamination",
+    "content": "IMMEDIATE ACTION REQUIRED\n\nFood Standards Australia New Zealand has issued an urgent recall notice for specific batches of pre-packaged salads due to potential Listeria contamination.\n\nAffected Products:\n- Garden Fresh Mixed Salad 200g\n- Batch codes: GF240314, GF240315\n- Best before dates: 18/03/2024, 19/03/2024\n\nPlease immediately remove these products from sale and quarantine any remaining stock.\n\nContact us immediately at 1800-RECALL for further instructions.\n\nFood Safety Authority\n\nCONFIDENTIALITY NOTICE: This message contains confidential information and is intended only for the individual named. If you have received this message in error, please notify the sender immediately."
+  },
+  {
+    "email_id": "7a6b5c4d3e2f1082",
+    "timestamp": "2024-03-17T08:45:12Z",
+    "sender": "warehouse@fruitsupplier.com.au",
+    "subject": "Fwd: Re: Delivery Issues - Week of March 11",
+    "content": "> From: logistics@fruitsupplier.com.au\n> To: warehouse@fruitsupplier.com.au\n> Subject: Re: Delivery Issues - Week of March 11\n> \n> The delivery delays were caused by:\n> > From: transport@fruitsupplier.com.au\n> > To: logistics@fruitsupplier.com.au\n> > Subject: Transport Update\n> > \n> > Truck breakdown on highway\n> > > From: maintenance@fruitsupplier.com.au\n> > > To: transport@fruitsupplier.com.au\n> > > \n> > > Engine failure requires 3-day repair\n> > > > From: fleet@fruitsupplier.com.au\n> > > > To: maintenance@fruitsupplier.com.au\n> > > > \n> > > > Replacement vehicle sourced from Melbourne depot\n> > > > > From: melbourne@fruitsupplier.com.au\n> > > > > To: fleet@fruitsupplier.com.au\n> > > > > \n> > > > > Vehicle available Tuesday\n\nDelivery rescheduled for Tuesday 6AM.\n\nRegards,\nWarehouse Team\n\n-- \nFruit Supplier Australia\nWarehouse Operations\nPhone: +61 3 9876 5432\nEmail: warehouse@fruitsupplier.com.au\n\nCONFIDENTIALITY NOTICE: This email is confidential. If received in error, please delete immediately."
+  },
+  {
+    "email_id": "d4e5f6a7b8c9d135",
+    "timestamp": "2024-03-17T09:30:44Z",
+    "sender": "finance@beverageco.com.au",
+    "subject": "Credit Note Request - Damaged Goods",
+    "content": "Hello,\n\nWe need to issue a credit note for damaged beverages delivered on March 12.\n\nDetails:\n- Delivery ID: BEV-DEL-240312-A\n- Damaged cases: 24\n- Value: $1,344.00\n\nInspection photos included:\n\ndata:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k=\n\nPlease process the credit note at your earliest convenience.\n\nThanks,\nRachel Green\nFinance Department\n\n-- \nRachel Green | Finance Coordinator\nBeverage Co Australia\nPhone: +61 7 8765 4321\nEmail: rachel.green@beverageco.com.au"
+  },
+  {
+    "email_id": "9e8d7c6b5a493827",
+    "timestamp": "2024-03-17T11:18:55Z",
+    "sender": "admin@smallsupplier.com.au",
+    "subject": "Contact Details Update",
+    "content": "Hi,\n\nWe've moved offices. Please update our contact details:\n\nNew Address:\n456 Commerce Street\nSydney NSW 2000\n\nPhone and email remain the same.\n\nCheers,\nPeter Small\n\n-- \nPeter Small | Managing Director\nSmall Supplier Pty Ltd\nPhone: +61 2 5555 6666\nEmail: peter@smallsupplier.com.au"
+  },
+  {
+    "email_id": "3f2e1d0c9b8a7654",
+    "timestamp": "2024-03-17T13:25:33Z",
+    "sender": "quality@organicfarms.com.au",
+    "subject": "Quality Certification Update - March 2024",
+    "content": "Dear Team,\n\nPlease find attached our updated quality certifications for March 2024. All products continue to meet organic standards.\n\nCertification includes:\n- NASAA Organic Certification\n- HACCP Compliance\n- BRC Food Safety Standard\n\nCertificate images embedded:\n\ndata:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QFLQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k=\n\nPlease retain for your records.\n\nBest regards,\nMary Johnson\nQuality Assurance Manager\n\n-- \nMary Johnson | QA Manager\nOrganic Farms Australia\nPhone: +61 8 7654 3210\nEmail: mary.johnson@organicfarms.com.au\nAddress: Rural Route 5, Adelaide SA 5000\n\nCONFIDENTIALITY NOTICE: This email and any attachments may contain confidential information."
+  },
+  {
+    "email_id": "a1b2c3d4e5f67890",
+    "timestamp": "2024-03-18T07:15:22Z",
+    "sender": "emergency@meatworks.com.au",
+    "subject": "URGENT: Cold Storage Failure - Immediate Action Required",
+    "content": "EMERGENCY NOTIFICATION\n\nCold storage Unit 3 has failed overnight. All products stored in this unit require immediate quarantine and inspection.\n\nAffected products delivered in last 48 hours:\n- Premium beef range\n- Lamb cuts\n- Processed meats\n\nFood safety protocol requires:\n1. Immediate quarantine\n2. Temperature log review\n3. Product disposal if compromised\n\nEstimated affected value: $67,000\n\nContact emergency line: 1800-MEAT-HELP\n\nThis is a critical food safety issue requiring immediate response.\n\nEmergency Response Team\nMeatworks Australia\n\nCONFIDENTIALITY NOTICE: This emergency notification contains sensitive information and should only be shared with authorized personnel."
+  },
+  {
+    "email_id": "b9c8d7e6f5a43210",
+    "timestamp": "2024-03-18T09:33:17Z",
+    "sender": "marketing@snackfoods.com.au",
+    "subject": "New Product Launch - Promotion Support Request",
+    "content": "Hi Marketing Team,\n\nWe're launching our new healthy snack range next month and would love your support with in-store promotions.\n\nProduct range includes:\n- Baked veggie chips\n- Protein bars\n- Nut mixes\n\nCould we schedule a call to discuss promotional opportunities?\n\nThanks,\nSteve Williams\nBrand Manager\n\n-- \nSteve Williams | Brand Manager\nSnack Foods Australia\nPhone: +61 3 4567 8901\nEmail: steve.williams@snackfoods.com.au"
+  },
+  {
+    "email_id": "e6f7a8b9c0d1e2f3",
+    "timestamp": "2024-03-18T12:20:44Z",
+    "sender": "billing@homewaregoods.com.au",
+    "subject": "Invoice #HW-2024-556 - Homeware Products",
+    "content": "Dear Accounts Team,\n\nPlease find attached invoice HW-2024-556 for homeware products delivered on March 16, 2024.\n\nInvoice Details:\n- Invoice #HW-2024-556\n- Amount: $8,940.25\n- Payment terms: 30 days\n- Delivery date: March 16, 2024\n\nProduct images and invoice scan:\n\ndata:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k=\n\nThank you for your business.\n\nBest regards,\nMichael Brown\nAccounts Department\n\n-- \nMichael Brown | Billing Specialist\nHomeware Goods Australia Pty Ltd\nPhone: +61 3 7890 1234\nEmail: michael.brown@homewaregoods.com.au"
+  },
+  {
+    "email_id": "x9z8y7w6v5u43210",
+    "timestamp": "2024-03-18T15:47:22Z",
+    "sender": "deals@superoffers.biz",
+    "subject": "🎉 EXCLUSIVE: 70% OFF Premium Business Software - Limited Time!",
+    "content": "CONGRATULATIONS! You've been selected for our EXCLUSIVE business discount program!\n\n💰 SAVE 70% on Premium Business Software Suite\n🚀 Boost your productivity INSTANTLY\n⭐ Over 10,000+ satisfied customers\n\n✅ CRM System - Usually $299/month → NOW $89/month\n✅ Accounting Software - Usually $199/month → NOW $59/month  \n✅ Project Management Tools - Usually $149/month → NOW $44/month\n\n🔥 THIS OFFER EXPIRES IN 24 HOURS! 🔥\n\nDon't miss out on this LIMITED TIME opportunity to transform your business!\n\nCLICK HERE TO CLAIM YOUR DISCOUNT: www.superoffers.biz/claim-now\n\nOR CALL NOW: 1-800-GET-DEAL\n\nThis exclusive offer is only available to select business owners like yourself. Act fast before it's gone forever!\n\n*Terms and conditions may apply. Offer valid for new customers only."
+  },
+  {
+    "email_id": "k2j3h4g5f6d78901",
+    "timestamp": "2024-03-18T16:12:45Z",
+    "sender": "investment@wealthbuilders.net",
+    "subject": "Make $5,000+ Per Month Working From Home - Guaranteed Results!",
+    "content": "Dear Business Professional,\n\nAre you tired of the 9-to-5 grind? Ready to take control of your financial future?\n\nOur PROVEN investment system has helped thousands of people generate $5,000-$15,000 per month from the comfort of their own home!\n\n✓ No experience required\n✓ Work only 2-3 hours per day\n✓ 100% money-back guarantee\n✓ Start earning within 48 hours\n\nJohn M. from Sydney: \"I made $8,400 in my first month!\"\nSarah L. from Melbourne: \"This changed my life - $12,000 last month!\"\nMike R. from Brisbane: \"I quit my job after 3 months - now making $18K monthly!\"\n\nSPECIAL LIMITED OFFER: Get started for just $47 (normally $497)\n\nTo secure your spot in our exclusive program, reply with \"YES\" or visit:\nwww.wealthbuilders.net/get-started-now\n\nDon't let this opportunity pass you by!\n\nTo your success,\nRobert Hamilton\nSenior Investment Advisor\nWealth Builders International"
+  },
+  {
+    "email_id": "m5n6b7v8c9x01234",
+    "timestamp": "2024-03-18T17:33:18Z",
+    "sender": "service@techsolutionsau.com",
+    "subject": "Your Website Security Certificate Has Expired - Immediate Action Required",
+    "content": "URGENT SECURITY NOTICE\n\nDear Website Administrator,\n\nOur security systems have detected that your website's SSL certificate has EXPIRED as of today.\n\nThis puts your business and customers at SERIOUS RISK:\n⚠️ Customer data may be compromised\n⚠️ Search engines may block your site\n⚠️ Payment processing could be suspended\n⚠️ Your site may show \"NOT SECURE\" warnings\n\nImmediate action is required to prevent:\n- Loss of customer trust\n- Damaged search rankings\n- Potential legal liability\n- Revenue loss\n\nCLICK HERE TO RENEW YOUR CERTIFICATE NOW:\nwww.techsolutionsau.com/ssl-renewal/urgent\n\nOr call our emergency hotline: 1800-SSL-HELP\n\nThis is an automated security alert. Please do not reply to this email.\n\nTech Solutions Australia\nSecurity Monitoring Division\nPhone: 1800-555-0123\nEmail: security@techsolutionsau.com"
+  },
+  {
+    "email_id": "p8q9r0s1t2u34567",
+    "timestamp": "2024-03-19T08:22:11Z",
+    "sender": "notifications@australianlottery.org",
+    "subject": "WINNER NOTIFICATION: You've Won AUD $850,000 in the Australian Business Lottery!",
+    "content": "CONGRATULATIONS!\n\nWINNER NOTIFICATION - REF: ABL/2024/MARCH/8850\n\nDear Lucky Winner,\n\nWe are pleased to inform you that your email address has WON the sum of EIGHT HUNDRED AND FIFTY THOUSAND AUSTRALIAN DOLLARS (AUD $850,000.00) in the Australian Business Lottery promotional draw held on March 15th, 2024.\n\nYour email was randomly selected from over 2.5 million business email addresses across Australia and New Zealand.\n\nWINNING DETAILS:\nTicket Number: ABL-8850-2024\nLucky Numbers: 07-14-23-31-42-48\nSerial Number: ABL/851/024/AU\nDraw Date: March 15, 2024\nAmount Won: AUD $850,000.00\n\nTo claim your prize, please contact our claims department immediately:\n\nMr. David Richardson\nClaims Processing Manager\nEmail: claims@australianlottery.org\nPhone: +61-2-8765-4321\n\nRequired Information:\n1. Full Name\n2. Address\n3. Phone Number\n4. Occupation\n5. Date of Birth\n6. Copy of ID/Passport\n\nNOTE: You have 14 days to claim this prize or it will be forfeited.\n\nCongratulations once again!\n\nAustralian Lottery Commission\nRegistered Office: Level 15, 123 Collins Street, Melbourne VIC 3000"
+  },
+  {
+    "email_id": "a7b8c9d0e1f23456",
+    "timestamp": "2024-03-19T11:45:33Z",
+    "sender": "marketing@officegear.net.au",
+    "subject": "FLASH SALE: Office Furniture Warehouse Clearance - Up to 80% OFF Everything!",
+    "content": "🏢 MASSIVE WAREHOUSE CLEARANCE EVENT! 🏢\n\nEverything Must Go - Up to 80% OFF All Office Furniture!\n\nDear Business Owner,\n\nWe're closing our Sydney warehouse and need to clear ALL inventory immediately!\n\n🪑 Executive Chairs - Was $899 → NOW $179\n🖥️ Standing Desks - Was $1,299 → NOW $259\n📁 Filing Cabinets - Was $449 → NOW $89\n🖨️ Printer Stands - Was $199 → NOW $39\n📊 Conference Tables - Was $2,499 → NOW $499\n\nPLUS:\n✅ FREE delivery within 50km of Sydney\n✅ 12-month warranty on all items\n✅ Same-day pickup available\n✅ Bulk discounts for orders over $5,000\n\n⏰ SALE ENDS SUNDAY MIDNIGHT ⏰\n\nStock is limited and selling FAST! Don't miss out on these incredible savings!\n\nSHOP NOW: www.officegear.net.au/warehouse-clearance\nCALL NOW: 1300-OFFICE (1300-633-423)\n\nHurry - when it's gone, it's GONE!\n\n---\nOffice Gear Australia\n📍 Unit 7, 45 Industrial Drive, Sydney NSW 2000\n📞 Phone: 1300-633-423\n✉️ Email: sales@officegear.net.au\n\nUnsubscribe: www.officegear.net.au/unsubscribe"
   }
 ]
