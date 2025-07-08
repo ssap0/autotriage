@@ -54,7 +54,6 @@ def removeImage(data):
         nexthalf = result[match.start():]
         nl = nexthalf.find("\n")
         result = prevhalf + nexthalf[nl:]
-        print(result)
         return result
 
     return data
@@ -76,9 +75,5 @@ def removeReply(data):
 def sendPost(data):
     data["email_content"] = removeImage(data["email_content"])
     data["email_content"] = removeReply(data["email_content"])
-    print(data["email_content"])
     response = requests.post(posturl, json = data)
-    print(response.text)
     return response.text
-
-sendPost(postdata)
