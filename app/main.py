@@ -49,7 +49,7 @@ def removeImage(data):
     imagePattern = r"\n\s*data:image/"
     match = re.match(imagePattern, data)
     if(match):
-        result = re.sub(imagePattern, "", text)
+        result = re.sub(imagePattern, "", data)
         nextNL = result.find("\n")
         result = result[nextNL:]
         return result
@@ -60,7 +60,7 @@ def removeReply(data):
     replyPattern = r"> From:"
     match = re.match(replyPattern, data)
     if(match):
-        result = re.sub(replyPattern, "", text)
+        result = re.sub(replyPattern, "", data)
         i = result.rfind("> > > > >")
         result = result[i:]
         nl = result.find("\n");
