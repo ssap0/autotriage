@@ -71,7 +71,7 @@ def removeReply(data):
 
 # Function to do a post message to to the url
 def sendPost(data):
-    data = removeImage(data)
-    data = removeReply(data)
+    data["email_content"] = removeImage(data["email_content"])
+    data["email_content"] = removeReply(data["email_content"])
     response = requests.post(posturl, json = data)
     return response.text
