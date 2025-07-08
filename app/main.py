@@ -2,6 +2,7 @@ from fastapi import FastAPI, Request
 from app.core.config import settings
 from app.api.v1.api import api_router
 import requests
+import re
 
 # send messages
 posturl = 'https://candidate-ds-endpoint.onrender.com/get-category'
@@ -44,7 +45,32 @@ async def health_check() -> dict[str, str]:
     return {"status": "healthy"}
 
 
+def removeImage(data):
+    imagePattern = r"\n\s*data:image/"
+    match = re.match(imagePattern, data)
+    if(match):
+        result = re.sub(imagePattern, "", text)
+        nextNL = result.find("\n")
+        result = result[nextNL:]
+        return result
+
+    return data
+
+def removeReply(data):
+    replyPattern = r"> From:"
+    match = re.match(replyPattern, data)
+    if(match):
+        result = re.sub(replyPattern, "", text)
+        i = result.rfind("> > > > >")
+        result = result[i:]
+        nl = result.find("\n");
+        result = result[nl:]
+        return result
+
+    return data
+
 # Function to do a post message to to the url
 def sendPost(data):
+    data = removeImage(data)
     response = requests.post(posturl, json = data)
     return response.text
