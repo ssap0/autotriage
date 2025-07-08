@@ -8,7 +8,7 @@ import re
 posturl = 'https://candidate-ds-endpoint.onrender.com/get-category'
 
 postdata = {
-   "email_content": "",
+   "email_content": "Dear Accounts Team,\n\nPlease find attached invoice BG-2024-447 for bakery supply delivery completed on March 13, 2024.\n\nInvoice Details:\n- Invoice #BG-2024-447\n- Amount: $15,680.45\n- Payment terms: 30 days\n- Delivery date: March 13, 2024\n\nInvoice and delivery confirmation images:\n\ndata:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAYABgAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k=\n\nPlease process at your earliest convenience.\n\nBest regards,\nAnna Wilson\nBilling Department\n\n-- \nAnna Wilson | Billing Coordinator\nBaking Goods Australia Pty Ltd\nPhone: +61 2 6543 2109\nEmail: anna.wilson@bakinggoods.com.au",
    "username": "eexuanen",
    "input_categories": ["SPAM", "IMPORTANT", "MARKETING", "Security", "Account", "Not Important"]
 }
@@ -46,19 +46,22 @@ async def health_check() -> dict[str, str]:
 
 
 def removeImage(data):
-    imagePattern = r"\n\s*data:image/"
-    match = re.match(imagePattern, data)
+    imagePattern = r"\ndata:image/"
+    match = re.search(imagePattern, data)
     if(match):
         result = re.sub(imagePattern, "", data)
-        nextNL = result.find("\n")
-        result = result[nextNL:]
+        prevhalf = result[:match.start()]
+        nexthalf = result[match.start():]
+        nl = nexthalf.find("\n")
+        result = prevhalf + nexthalf[nl:]
+        print(result)
         return result
 
     return data
 
 def removeReply(data):
     replyPattern = r"> From:"
-    match = re.match(replyPattern, data)
+    match = re.search(replyPattern, data)
     if(match):
         result = re.sub(replyPattern, "", data)
         i = result.rfind("> > > > >")
@@ -73,5 +76,9 @@ def removeReply(data):
 def sendPost(data):
     data["email_content"] = removeImage(data["email_content"])
     data["email_content"] = removeReply(data["email_content"])
+    print(data["email_content"])
     response = requests.post(posturl, json = data)
+    print(response.text)
     return response.text
+
+sendPost(postdata)
