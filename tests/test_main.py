@@ -26,13 +26,12 @@ def test_email():
     """Test the category endpoint."""
     # Data file path
     dataFile = Path("data/emails.json")
-    
     # for each data send and print out result using functions
     with open(dataFile, "r", encoding="utf-8") as f:
         data = json.load(f)
         for email in data:
-            response = client.post("/email", data = email)
+            response = client.post("/email", json = data)
             assert response.status_code == 200
-            data = response.test()
-            print(data);
+            responseJson = response.json()
+            print(responseJson)
    

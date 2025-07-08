@@ -34,7 +34,7 @@ async def getPost(request: Request) -> dict[str, str]:
     data = await request.json()
     print(data)
     postdata["email_content"] = data["email_content"]
-    response = sendPost(postData);
+    response = sendPost(postdata);
     return response;
 
 
@@ -48,4 +48,3 @@ async def health_check() -> dict[str, str]:
 def sendPost(data):
     response = requests.post(posturl, json = data)
     return response.text
-
