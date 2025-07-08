@@ -1,7 +1,16 @@
-from fastapi import FastAPI
+from fastapi import FastAPI, Request
 from app.core.config import settings
 from app.api.v1.api import api_router
 import requests
+
+# send messages
+posturl = 'https://candidate-ds-endpoint.onrender.com/get-category'
+
+postdata = {
+   "email_content": "",
+   "username": "eexuanen",
+   "input_categories": ["SPAM", "IMPORTANT", "MARKETING", "Security", "Account", "Not Important"]
+}
 
 app = FastAPI(
     title=settings.PROJECT_NAME,
@@ -19,24 +28,24 @@ async def root() -> dict[str, str]:
     return {"message": "Hello World"}
 
 
+# create frontend client endpoint
+@app.post("/email")
+async def getPost(request: Request) -> dict[str, str]:
+    data = await request.json()
+    print(data)
+    postdata["email_content"] = data["email_content"]
+    response = sendPost(postData);
+    return response;
+
+
 @app.get("/health")
 async def health_check() -> dict[str, str]:
     """Health check endpoint for monitoring."""
     return {"status": "healthy"}
 
-posturl = 'https://candidate-ds-endpoint.onrender.com/get-category'
-
-postdata = {
-   "email_content": "a new email that is not spam!",
-   "username": "eexuanen",
-   "input_categories": ["SPAM", "IMPORTANT", "MARKETING"]
-}
 
 # Function to do a post message to to the url
-def SendPost(data):
+def sendPost(data):
     response = requests.post(posturl, json = data)
-    print(response.status_code)
-    print(response.text)
+    return response.text
 
-
-SendPost(postdata)
